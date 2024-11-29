@@ -1,0 +1,36 @@
+name: lychee_payment_sdk_test
+description: Lychee Payment SDK.
+version: 0.0.4+1
+homepage: https://github.com/nadeemabualarayes/lychee_payment_sdk
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  crypto: ^3.0.0
+  dio: ^5.7.0
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.payment_sdk
+        pluginClass: PaymentSdkPlugin
+      ios:
+        pluginClass: PaymentSdkPlugin
+
+
+
+  uses-material-design: true

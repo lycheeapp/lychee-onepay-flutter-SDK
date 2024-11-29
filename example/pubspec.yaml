@@ -1,0 +1,30 @@
+name: lychee_payment_sdk
+description: Demonstrates how to use the payment_sdk plugin.
+
+version: 0.0.1
+homepage: https://github.com/nadeemabualarayes/lychee_payment_sdk
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lychee_payment_sdk_test:
+    path: ../
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
