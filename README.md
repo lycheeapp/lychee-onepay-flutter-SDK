@@ -110,7 +110,7 @@ class PaymentHomePage extends StatelessWidget {
                 amount: '200', //total amount
                 storeName: 'Mart.ps', //store name
                 storeLogo:
-                    'https://s3.us-west-2.amazonaws.com/storetest.lycheeapp.org/laychee.png', //store logo
+                    'https://img.freepik.com/premium-vector/letter-b-store-logo-design_567423-42.jpg', //store logo
                 secretKey: 'your-secret-key',
                 apiKey: 'your-api-key',
                 deviceUDID: '12345');
